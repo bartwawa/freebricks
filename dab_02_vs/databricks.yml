@@ -2,7 +2,7 @@
 # See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
 bundle:
   name: dab_02_vs
-  uuid: 00841ef0-b541-4849-b70d-9e158dc6f9c2
+  uuid: b41be11b-3b02-4d13-b108-02e6dbc33176
 
 include:
   - resources/*.yml
