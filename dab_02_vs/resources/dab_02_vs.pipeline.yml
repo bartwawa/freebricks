@@ -1,0 +1,13 @@
+# The main pipeline for dab_02_vs
+resources:
+  pipelines:
+    dab_02_vs_pipeline:
+      name: dab_02_vs_pipeline
+      catalog: workspace
+      schema: dab_02_vs_${bundle.target}
+      libraries:
+        - notebook:
+            path: ../src/dlt_pipeline.ipynb
+
+      configuration:
+        bundle.sourcePath: ${workspace.file_path}/src
